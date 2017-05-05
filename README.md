@@ -2,6 +2,8 @@
 browser-sync starter kit with hapi js
 =====================================
 
+##### Maintainer: Jonathan R. Lopez
+
 very simple to use you just have to have gulp installed in global mode
 since it relies on it
 
@@ -18,4 +20,4 @@ source is ofcourse the pug files and the sass files.
 they compile up to app folder.
 if you run bower make sure you do it inside of the app folder too install your js libs.
 
-cool that should be it enjoy hapi-skeleton 
+cool that should be it enjoy hapi-skeleton
