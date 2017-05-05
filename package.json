@@ -2,9 +2,9 @@
   "name": "skeleton",
   "version": "1.0.0",
   "description": "hapi and browser-sync test development",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp | node pug_sass_pipe.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,13 @@
     "coffee"
   ],
   "author": "Jonathan R. Lopez",
-  "license": "GPLV3",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jonathanwork/skeleton/issues"
   },
   "homepage": "https://github.com/jonathanwork/skeleton#readme",
   "dependencies": {
+    "chalk": "^1.1.3",
     "hapi": "^16.1.0",
     "inert": "^4.1.0",
     "vision": "^4.1.1"

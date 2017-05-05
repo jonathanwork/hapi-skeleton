@@ -12,7 +12,7 @@ var files = {
 gulp.task('nodemon', (cb)=> {
   var called = false;
   return nodemon({
-    script: 'main.js'
+    script: 'server.js'
 		,ext: 'js css html'
     ,ignore: [
       'gulpfile.js',
@@ -46,5 +46,3 @@ gulp.task('default', ['browser-sync'], ()=> {
     gulp.watch([files.css], reload);
     gulp.watch([files.js], reload);
 });
-
-
