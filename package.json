@@ -4,7 +4,7 @@
   "description": "hapi and browser-sync test development",
   "main": "server.js",
   "scripts": {
-    "start": "gulp | node pug_sass_pipe.js"
+    "start": "node pug_sass_pipe.js | gulp"
   },
   "repository": {
     "type": "git",
